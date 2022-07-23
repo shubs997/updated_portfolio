@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body.preload * {
+    transition: none !important;
+}
+
+
+/* Second Transition */
+
+
+/* .transition::after {
+    content: "";
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.8s ease;
+    z-index: 1000;
+}
+
+.body-loaded::after {
+    top: 100% !important
+}
+
+.transition::before {
+    content: "";
+    width: 150%;
+    height: 0%;
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    position: fixed;
+    left: 0;
+    transition: all 0.8s ease;
+    z-index: 1000;
+}
+
+.body-loader::before {
+    height: 150% !important;
+} */
+
+
+/* First Transtion */
+
+body::after {
+    content: "";
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.8s ease;
+    z-index: 1000;
+}
+
+body::before {
+    content: "";
+    width: 150%;
+    height: 0%;
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: all 0.8s ease;
+    z-index: 1000;
+}
+
+.body-loaded::after {
+    height: 0% !important;
+}
+
+.body-loader::before {
+    height: 150% !important;
+}
+
+
+/* Nav Stylying */
+
+nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+    z-index: 1000;
+    position: fixed;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 30px;
+    color: white;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:after {
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    transition: 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: linear-gradient(90deg, rgb(0, 184, 104) 0%, rgba(0, 173, 208, 1) 100%);
+}
+
+nav ul li a:hover:after {
+    background: linear-gradient(180deg, rgba(0, 185, 105, 1) 0%, rgba(0, 173, 208, 1) 100%);
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+}
+
+#header {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #0f141e;
+    text-align: center;
+}
+
+#header p {
+    font-size: 30px;
+    font-weight: lighter;
+}
