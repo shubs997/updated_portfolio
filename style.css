@@ -865,27 +865,27 @@ other {
     #h1 {
         top: 46%;
         left: 50%;
-        font-size: 4em;
+        font-size: 6em;
     }
     #h2 {
         top: 50%;
         left: 57%;
         padding-left: 0em;
-        font-size: 4em;
+        font-size: 6em;
     }
     #h3 {
-        top: 53%;
+        top: 54%;
         left: 42%;
-        font-size: 2em;
+        font-size: 3em;
     }
     #h4 {
-        font-size: 2em;
-        top: 43%;
+        font-size: 3em;
+        top: 42%;
         left: 46%;
         padding-left: 0em;
     }
     .content a {
-        font-size: 5em;
+        font-size: 7em;
     }
     /* about media */
     .about {
@@ -893,10 +893,12 @@ other {
     }
     .about>#summary {
         max-width: 90%;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .about>#headings {
         font-size: 7vmin;
+        -webkit-text-stroke-width: 1.5px;
+        letter-spacing: 3px;
     }
     .about>#sub-heading {
         max-width: 90%;

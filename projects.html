@@ -18,10 +18,19 @@
     <!-- partial:index.partial.html -->
     <!-- <canvas style="z-index: -200;"></canvas> -->
     <!-- <canvas id="main-canvas"></canvas> -->
+
+    <ul class="nav-dots" id="js-dots">
+        <li class="nav-dot" id="dot1" onClick="document.getElementById('section1').scrollIntoView();"></li>
+        <li class="nav-dot" id="dot2" onClick="document.getElementById('section2').scrollIntoView();"></li>
+        <li class="nav-dot" id="dot3" onClick="document.getElementById('section3').scrollIntoView();"></li>
+        <li class="nav-dot" id="dot4" onClick="document.getElementById('section4').scrollIntoView();"></li>
+    </ul>
+
+
     <div class="about">
         <h5 id="headings">Projects</h5>
 
-        <div class="projects-container">
+        <div class="projects-container" id="section1">
             <div class="components-left">
                 <h1 class="project-name">Docufy</h1>
                 <ul class="tags responsive-ul">
@@ -60,7 +69,7 @@
             </div>
         </div>
 
-        <div class="projects-container paddg">
+        <div class="projects-container paddg" id="section2">
             <div class="components-left">
                 <h1 class="project-name">Blogrr</h1>
                 <ul class="tags responsive-ul">
@@ -96,7 +105,7 @@
         </div>
 
 
-        <div class="projects-container paddg">
+        <div class="projects-container paddg" id="section3">
             <div class="components-left">
                 <h1 class="project-name">Ignite</h1>
                 <ul class="tags responsive-ul">
@@ -133,7 +142,7 @@
         </div>
 
 
-        <div class="projects-container paddg">
+        <div class="projects-container paddg" id="section4">
             <div class="components-left">
                 <h1 class="project-name">UFLCIndia</h1>
                 <ul class="tags responsive-ul">
@@ -168,16 +177,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
 
     </div>
 
