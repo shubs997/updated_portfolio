@@ -524,12 +524,14 @@ button {
     width: 100px;
     height: 100px;
     text-align: center;
+    text-decoration: none;
     line-height: 103px;
     margin: 0.5em;
     background: #333;
     border-radius: 50%;
     font-size: 40px;
     color: #666;
+    cursor: pointer;
     transition: .5s;
 }
 
@@ -724,10 +726,10 @@ other {
     .components-left ul li {
         padding: 1rem 1rem;
         margin: 1rem 0.4rem;
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .components-left p {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .neon-button {
         font-size: 2em;
@@ -746,6 +748,15 @@ other {
     }
     .nav-dots {
         visibility: hidden;
+    }
+    #reveal {
+        float: left;
+        padding: 20px;
+        border: 4px solid var(--ablazeAqua);
+        background: transparent;
+    }
+    #reveal a {
+        font-size: 1.6em;
     }
 }
 
