@@ -22,11 +22,6 @@ body {
     src: url(fonts/HelveticaNowDisplay-Regular.ttf);
 }
 
-@font-face {
-    font-family: Karla;
-    src: url(fonts/Karla-VariableFont_wght.ttf);
-}
-
 body {
     margin: 0;
     width: 100%;
@@ -210,7 +205,7 @@ canvas {
 }
 
 .components-left p {
-    font: 16px 'Karla', sans-serif;
+    font: 16px 'Lato', sans-serif;
     font-size: 1.5em;
     padding: 0.4em 0em;
     text-align: left;
@@ -343,7 +338,7 @@ canvas {
     visibility: visible;
     position: absolute;
     top: 2%;
-    left: 90%;
+    left: 85%;
     bottom: auto;
     height: 80px;
     width: 100%;
@@ -653,7 +648,7 @@ button {
     color: inherit;
 }
 
-span {
+#reveal span {
     float: left;
     right: 50%;
 }

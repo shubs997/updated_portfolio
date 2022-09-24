@@ -1071,3 +1071,30 @@
     bottom: 0;
     transform: rotate(-90deg);
 }
+
+
+/* Media Queries    */
+
+@media only screen and (max-width: 1200px) {
+    /*Big smartphones [426px -> 600px]*/
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        width: 70px;
+        height: 6px;
+        background-color: aquamarine;
+        border-radius: 4px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+    }
+    .hamburger--spring .hamburger-inner::before {
+        top: 17px;
+        transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    .hamburger--spring .hamburger-inner::after {
+        top: 34px;
+        transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+}
