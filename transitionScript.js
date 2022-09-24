@@ -30,7 +30,7 @@ $(document).ready(function() {
 function myFunction() {
     var url = $(this).attr('href');
     setTimeout(function() {
-        window.location.href = "menu.html";
+        window.location.href = "home.html";
     }, 500);
 }
 
