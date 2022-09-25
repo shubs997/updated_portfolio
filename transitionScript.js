@@ -20,12 +20,6 @@ $(document).ready(function() {
     // $('.transition').addClass('body-loaded');
 });
 
-// $('.con').on('click', function() {
-//     var url = $(this).attr('href');
-//     setTimeout(function() {
-//         window.location.href = url;
-//     }, 500);
-// }
 
 function myFunction() {
     var url = $(this).attr('href');
