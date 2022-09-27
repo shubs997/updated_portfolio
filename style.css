@@ -869,21 +869,21 @@ other {
     #h1 {
         top: 46%;
         left: 45%;
-        font-size: 6em;
+        font-size: 5em;
     }
     #h2 {
-        top: 51%;
+        top: 52%;
         left: 60%;
         padding-left: 0em;
-        font-size: 6em;
+        font-size: 5em;
     }
     #h3 {
-        top: 56%;
+        top: 57%;
         left: 52%;
-        font-size: 3em;
+        font-size: 2em;
     }
     #h4 {
-        font-size: 3em;
+        font-size: 2em;
         top: 41%;
         left: 46%;
         padding-left: 0em;
@@ -928,7 +928,6 @@ other {
 @media only screen and (max-width: 600px) {
     /*Big smartphones [426px -> 600px]*/
     h1 {
-        color: green;
         top: 42%;
         left: 50%;
     }
