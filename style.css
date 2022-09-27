@@ -849,12 +849,18 @@ other {
     .about>#sub-heading {
         font-size: 1.2em;
     }
+    .contact>#heading {
+        font-size: 5em;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
     /*Tablets [601px -> 1200px]*/
     h1 {
         /* color: red; */
+    }
+    .contact>#heading {
+        font-size: 4em;
     }
 }
 
@@ -905,6 +911,9 @@ other {
     .about>#sub-heading {
         font-size: 1.2em;
     }
+    .contact>#heading {
+        font-size: 3em;
+    }
     #reveal {
         float: left;
         padding: 20px;
@@ -943,7 +952,6 @@ other {
 @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px]*/
     h1 {
-        color: yellow;
         top: 42%;
         left: 50%;
     }
